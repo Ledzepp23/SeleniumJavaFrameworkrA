@@ -1,0 +1,2 @@
+[INFO ] 2019-10-05 12:37:26.605 [main] Log4jDemo -This is information message
+[ERROR] 2019-10-05 12:37:26.608 [main] Log4jDemo -this is an error message

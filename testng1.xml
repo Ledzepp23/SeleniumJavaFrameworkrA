@@ -1,0 +1,23 @@
+
+<suite name="Suite1" parallel="tests" thread-count="3">
+    <test thread-count="5" name="Test on chrome">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="demo.TestNGMultiBrowserDemo" />
+        </classes>
+    </test>
+
+    <test thread-count="5" name="Test on firefox">
+        <parameter name="browserName" value="firefox"></parameter>
+        <classes>
+            <class name="demo.TestNGMultiBrowserDemo" />
+        </classes>
+    </test>
+
+    <test thread-count="5" name="Test on ie">
+        <parameter name="browserName" value="ie"></parameter>
+        <classes>
+            <class name="demo.TestNGMultiBrowserDemo" />
+        </classes>
+    </test>
+</suite>

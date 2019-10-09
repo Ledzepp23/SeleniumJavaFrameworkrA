@@ -1,0 +1,9 @@
+
+<suite name="Suite1" parallel="tests" thread-count="3">
+    <test thread-count="5" name="Test on chrome">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="demo.TestNGRetryFailedDemo" />
+        </classes>
+    </test>
+</suite>
